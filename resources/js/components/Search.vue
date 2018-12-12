@@ -1,7 +1,7 @@
 <template>
     <div class="search-section text-white p-6 align-content-center">
         <div class="flex h-16">
-            <input class="rounded-full border border-white text-blue text-4xl w-3/4" type="text" v-model="url">
+            <input class="rounded-full border border-white text-blue text-4xl w-3/4" type="text" v-model="url" placeholder="Paste Url">
             <a href="#" @click.prevent="getContent" class="rounded-full border border-white text-white text-4xl px-4 hover:bg-blue hover:no-underline w-1/4 text-center">Search</a>
         </div>
         <div class="flex  p-4">
@@ -22,7 +22,7 @@
     export default {
         data() {
             return {
-                url: "https://bg.sportsdirect.com/karrimor-casual-mens-snow-boots-143047?colcode=14304705",
+                url: "",
                 cheerio: cheerio,
                 $: '',
                 html: '',

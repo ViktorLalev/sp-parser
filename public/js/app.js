@@ -47527,7 +47527,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
-            url: "https://bg.sportsdirect.com/karrimor-casual-mens-snow-boots-143047?colcode=14304705",
+            url: "",
             cheerio: __WEBPACK_IMPORTED_MODULE_0_cheerio___default.a,
             $: '',
             html: '',
@@ -47587,7 +47587,7 @@ var render = function() {
           ],
           staticClass:
             "rounded-full border border-white text-blue text-4xl w-3/4",
-          attrs: { type: "text" },
+          attrs: { type: "text", placeholder: "Paste Url" },
           domProps: { value: _vm.url },
           on: {
             input: function($event) {
